@@ -13,10 +13,10 @@ SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
 
 
-from flask_admin.contrib.sqla import ModelView
-from flask_admin import Admin
-from flask_login import UserMixin, LoginManager
-admin = Admin(app)
+# from flask_admin.contrib.sqla import ModelView
+# from flask_admin import Admin
+# from flask_login import UserMixin, LoginManager
+# admin = Admin(app)
 # login = LoginManager(app)
 
 
@@ -29,7 +29,7 @@ class Contact(db.Model):
     def __repr__(self) -> str:
         return f"{self.sno} - {self.name} - {self.message}"
 
-admin.add_view(ModelView(Contact, db.session ))
+# admin.add_view(ModelView(Contact, db.session ))
 @app.before_first_request
 def create_tables():
     db.create_all()
