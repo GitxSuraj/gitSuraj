@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='/css/responsive.min.css') }}">
   <script src="{{ url_for('static', filename='js/modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9862788153607804"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <header id="masthead" class="masthead navbar navbar-default navbar-fixed-top">
@@ -206,7 +208,7 @@
 
   <div class="clearfix"></div>
 
-  <section id="projects" class="portfolio text-center">
+ <section id="projects" class="portfolio text-center">
     <div class="portfolio-bottom">
       <div class="section-padding">
         <div class="section-top wow animated fadeInUp" data-wow-delay=".5s">
@@ -219,7 +221,7 @@
         <hr>
           <div id="project-items" class="project-items">
             <div class="item cat-1 cat-4">
-              <a  href="https://rrp-t.herokuapp.com" target="_blank" class="image-popup-vertical-fit">
+              <a href="{{ url_for('static', filename='img/project/1.JPG') }}" class="image-popup-vertical-fit">
                 <img src="{{ url_for('static', filename='img/project/1.JPG') }}" data-at2x="{{ url_for('static', filename='img/project/1.JPG') }}" alt="Item Image">
               </a>
               <div class="item-details">
@@ -229,7 +231,7 @@
             </div>
 
             <div class="item cat-2 cat-3">
-              <a href="https://thedogeblogs.herokuapp.com" target="_blank" class="image-popup-vertical-fit">
+              <a href="{{ url_for('static', filename='img/project/2.jpg') }}" class="image-popup-vertical-fit">
                 <img src="{{ url_for('static', filename='img/project/2.jpg') }}" data-at2x="{{ url_for('static', filename='img/project/2.jpg') }}" alt="Item Image">
               </a>
               <div class="item-details">
@@ -239,7 +241,7 @@
             </div><!-- /.item -->
 
             <div class="item cat-1 cat-3">
-              <a  href="https://thedogeblog.herokuapp.com" target="_blank" class="image-popup-vertical-fit">
+              <a href="{{ url_for('static', filename='img/project/3.JPG') }}" class="image-popup-vertical-fit">
                 <img src="{{ url_for('static', filename='img/project/3.JPG') }}" data-at2x="{{ url_for('static', filename='img/project/3.JPG') }}" alt="Item Image">
               </a>
               <div class="item-details">
@@ -249,8 +251,8 @@
             </div>
 
             <div class="item cat-2 cat-4">
-              <a  href="https://gitsuraj.herokuapp.com" target="_blank" class="image-popup-vertical-fit">
-                <img src="{{ url_for('static', filename='img/project/4.jpg') }}" data-at2x="{{ url_for('static', filename='img/project/4.jpg') }}" alt="Item Image">
+              <a href="{{ url_for('static', filename='img/project/4.JPG') }}" class="image-popup-vertical-fit">
+                <img src="{{ url_for('static', filename='img/project/4.JPG') }}" data-at2x="{{ url_for('static', filename='img/project/4.JPG') }}" alt="Item Image">
               </a>
               <div class="item-details">
                 <h3 class="project-title">SurajBhardwaj</h3>
@@ -364,7 +366,5 @@
     $(".bxslider").bxSlider({auto:!0,preloadImages:"all",mode:"horizontal",captions:!1,controls:!0,pause:4000,speed:1200,onSliderLoad:function(){$(".bxslider>li .slide-inner").eq(1).addClass("active-slide"),$(".slide-inner.active-slide .slider-title").addClass("wow animated bounceInDown"),$(".slide-inner.active-slide .slide-description").addClass("wow animated bounceInRight"),$(".slide-inner.active-slide .btn").addClass("wow animated zoomInUp")},onSlideAfter:function(e,i,n){console.log(n),$(".active-slide").removeClass("active-slide"),$(".bxslider>li .slide-inner").eq(n+1).addClass("active-slide"),$(".slide-inner.active-slide").addClass("wow animated bounceInRight")},onSlideBefore:function(){$(".slide-inner.active-slide").removeClass("wow animated bounceInRight"),$(".one.slide-inner.active-slide").removeAttr("style")}}),$(document).ready(function(){function e(){return"ontouchstart"in document.documentElement}function i(){if("undefined"!=typeof google){var i={center:[-37.817331,144.955652],zoom:15,mapTypeControl:!0,mapTypeControlOptions:{style:google.maps.MapTypeControlStyle.DROPDOWN_MENU},navigationControl:!0,scrollwheel:!1,streetViewControl:!0};e()&&(i.draggable=!1),$("#googleMaps").gmap3({map:{options:i},marker:{latLng:[23.709921,90.407143],options:{icon:"images/mapicon.png"}}})}}$("#masthead #main-menu").onePageNav(),i()}),$("#contactform").on("submit",function(e){e.preventDefault(),$this=$(this),$.ajax({type:"POST",url:$this.attr("action"),data:$this.serialize(),success:function(){alert("Message Sent Successfully")}})});
 
   </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9862788153607804"
-     crossorigin="anonymous"></script>
 </body>
 </html>
