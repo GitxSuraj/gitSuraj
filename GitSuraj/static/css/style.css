@@ -434,7 +434,7 @@ button:focus {
 }
 .project-items .image-popup-vertical-fit:before {
     content: '';
-    background: rgba(231, 76, 60, 0.7);
+    background: rgb(206 60 231 / 70%);
     cursor: url(../../images/cursor.png) 30 30, crosshair;
     width: 0%;
     height: 100%;
