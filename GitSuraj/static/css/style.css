@@ -70,7 +70,7 @@ a:focus {
     outline-offset: 0;
 }
 a:hover {
-    color: #e74c3c;
+    color: #961ee7;
     text-decoration: none;
 }
 p {
@@ -110,13 +110,13 @@ button:focus {
 /* Mozilla based browsers */
 
 ::-moz-selection {
-    background-color: #e74c3c;
+    background-color: #961ee7;
     color: #ffffff;
 }
 /* Works in Safari */
 
 ::selection {
-    background-color: #e74c3c;
+    background-color: #961ee7;
     color: #ffffff;
 }
 .btn:focus,
@@ -141,7 +141,7 @@ button:focus {
     text-transform: capitalize;
 }
 .section-title span {
-    color: #e74c3c;
+    color: #961ee7;
     ;
 }
 .section-description {
@@ -234,7 +234,7 @@ button:focus {
     transition: all .3s ease-in-out;
 }
 .service-details .col-sm-6:first-child .item {
-    border: 1px solid #e74c3c;
+    border: 1px solid #961ee7;
 }
 .service-details .col-sm-6:nth-child(2) .item {
     border: 1px solid #7dbb18;
@@ -246,7 +246,7 @@ button:focus {
     border: 1px solid #ffcc00;
 }
 .service-details .col-sm-6:first-child .item-icon {
-    color: #e74c3c;
+    color: #961ee7;
 }
 .service-details .col-sm-6:nth-child(2) .item-icon {
     color: #7dbb18;
@@ -258,7 +258,7 @@ button:focus {
     color: #f6ff00;
 }
 .service-details .col-sm-6:first-child .item:hover {
-    background: #e74c3c;
+    background: #961ee7;
 }
 .service-details .col-sm-6:nth-child(2) .item:hover {
     background: #7dbb18;
@@ -305,7 +305,7 @@ button:focus {
     background: #e65243;
 }
 .about-breifing .col-sm-6:nth-child(4) {
-    background: #e74c3c;
+    background: #961ee7;
 }
 .item-no .count {
     font-size: 6.25em;
@@ -330,10 +330,10 @@ button:focus {
     font-size: .8125em;
 }
 .about-top .btn {
-    border: 2px solid #e74c3c;
+    border: 2px solid #961ee7;
 }
 .about-top .btn:hover {
-    background: #e74c3c;
+    background: #961ee7;
     color: #ffffff;
 }
 .progress {
@@ -345,7 +345,7 @@ button:focus {
     margin-bottom: 15px;
 }
 .progress-bar {
-    background: #e74c3c;
+    background: #961ee7;
     font-size: 13px;
     line-height: 30px;
     padding-left: 25px;
@@ -394,7 +394,7 @@ button:focus {
 }
 .itemFilter a {
     background-color: #ffffff;
-    border: 2px solid #e74c3c;
+    border: 2px solid #961ee7;
     color: #a7a7a8;
     display: inline-block;
     font-size: .8125em;
@@ -404,8 +404,8 @@ button:focus {
     text-transform: capitalize;
 }
 .itemFilter .current {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+    background-color: #961ee7;
+    border-color: #961ee7;
     color: #ffffff;
 }
 .project-items .item {
@@ -480,12 +480,12 @@ button:focus {
 }
 .latest-projects .btn,
 .blog .btn {
-    border: 2px solid #e74c3c;
+    border: 2px solid #961ee7;
     padding: 13px 30px;
 }
 .latest-projects .btn:hover,
 .blog .btn:hover {
-    background-color: #e74c3c;
+    background-color: #961ee7;
     color: #ffffff;
 }
 /* 8 ------- Sponsors Section Styles -------*/
@@ -538,8 +538,8 @@ button:focus {
     border: 2px solid #e6e6e6;
 }
 .submit-btn:hover {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+    background-color: #961ee7;
+    border-color: #961ee7;
     color: #ffffff;
 }
 /* 16 ------- Footer Section Styles ---------*/
@@ -584,7 +584,7 @@ footer {
     padding: 28px 0px;
 }
 .footer-bottom a {
-    color: #e74c3c;
+    color: #961ee7;
 }
 .footer-bottom a:hover {
     color: #686c77;
@@ -601,7 +601,7 @@ footer {
     font-size: 1.5em;
     height: 40px;
     width: 40px;
-    background-color: #e74c3c;
+    background-color: #961ee7;
     color: #ffffff;
     line-height: 40px;
     color: #ffffff;
@@ -618,5 +618,5 @@ footer {
     opacity: 1;
 }
 .read-more{
-    color: #e74c3c;
+    color: #961ee7;
 }
