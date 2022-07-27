@@ -105,7 +105,7 @@ wow.init();
     if (IEVersion() != 11) 
     {
       $('html').niceScroll({
-        cursorcolor: "#e74c3c",
+        cursorcolor: "#961ee7",
         zindex: '99999',
         cursorminheight: 60,
         scrollspeed: 80,
