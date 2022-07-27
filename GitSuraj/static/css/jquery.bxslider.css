@@ -197,7 +197,7 @@ ul.bxslider {
   text-transform: uppercase;
 }
 .slider-title span {
-  color: #e74c3c;
+  color: #961ee7;
 }
 .slide-description {
   color: #ffffff;
@@ -208,7 +208,7 @@ ul.bxslider {
   color: #ffffff;
 }
 .slider-text .btn:hover {
-  background: #e74c3c;
-  border-color: #e74c3c;
+  background: #961ee7;
+  border-color: #961ee7;
   color: #ffffff;
 }
